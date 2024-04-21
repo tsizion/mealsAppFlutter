@@ -1,57 +1,56 @@
 import 'package:flutter/material.dart';
-import 'package:mealsapp/models/category.dart';
 
 import 'package:mealsapp/models/category.dart';
 import 'package:mealsapp/models/meal.dart';
 
 // Constants in Dart should be written in lowerCamelcase.
 const availableCategories = [
-  Categorymodel(
+  Category(
     id: 'c1',
     title: 'Italian',
     color: Colors.purple,
   ),
-  Categorymodel(
+  Category(
     id: 'c2',
     title: 'Quick & Easy',
     color: Colors.red,
   ),
-  Categorymodel(
+  Category(
     id: 'c3',
     title: 'Hamburgers',
     color: Colors.orange,
   ),
-  Categorymodel(
+  Category(
     id: 'c4',
     title: 'German',
     color: Colors.amber,
   ),
-  Categorymodel(
+  Category(
     id: 'c5',
     title: 'Light & Lovely',
     color: Colors.blue,
   ),
-  Categorymodel(
+  Category(
     id: 'c6',
     title: 'Exotic',
     color: Colors.green,
   ),
-  Categorymodel(
+  Category(
     id: 'c7',
     title: 'Breakfast',
     color: Colors.lightBlue,
   ),
-  Categorymodel(
+  Category(
     id: 'c8',
     title: 'Asian',
     color: Colors.lightGreen,
   ),
-  Categorymodel(
+  Category(
     id: 'c9',
     title: 'French',
     color: Colors.pink,
   ),
-  Categorymodel(
+  Category(
     id: 'c10',
     title: 'Summer',
     color: Colors.teal,
